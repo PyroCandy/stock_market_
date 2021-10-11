@@ -1,6 +1,5 @@
 streamlit
-sklearn.preprocessing 
-keras.models
-keras.layers
+sklearn
+keras
 pandas 
 numpy
