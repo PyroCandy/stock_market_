@@ -3,5 +3,5 @@ sklearn
 keras
 pandas 
 numpy
-tensorflow
+tensorflow-cpu
 matplotlib
