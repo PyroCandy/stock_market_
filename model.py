@@ -12,7 +12,7 @@ import streamlit as st
 def stock_model(x):
 
 	# Reading .csv file and preparing data
-	df = pd.read_csv("https://github.com/PyroCandy/stock_market_/blob/042f6bba39717fa050fedfa4e4806765a7c0e537/stocks/{}_data.csv".format(x))
+	df = pd.read_csv("stocks//{}_data.csv".format(x))
 	# df = pd.read_csv("C:\SPP\csv\individual_stocks_5yr\individual_stocks_5yr\\UAA_data.csv")
 
 	data = df.sort_index(ascending=True, axis=0)
