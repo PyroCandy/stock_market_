@@ -3,4 +3,4 @@ sklearn
 keras
 pandas 
 numpy
-tensorflow-cpu
+tensorflow
